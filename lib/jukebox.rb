@@ -39,3 +39,10 @@ end
 def exit_jukebox
 puts "Goodbye"
 end
+
+def run(songs)
+loop do 
+  puts "Please enter a command:"
+  command = gets.chomp 
+  case command 
+end
