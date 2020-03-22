@@ -52,5 +52,8 @@ loop do
       when 'play'
         play(songs)
         when 'exit'
-          e
+          exit_jukebox
+          break
+        end
+      end
 end
